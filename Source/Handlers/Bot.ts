@@ -269,7 +269,7 @@ Bot.on("ready", async () => {
       .toJSON(),
   ];
 
-  const rest = new REST({ version: "10" }).setToken(process.env.BOT_TOKEN || "MTU0MzMwMzY3NDQ4OTc0MTQyMw.G3wvcG.OhOixfY6sTNLK4g-wvNjumn2GXhPgKC9VS33gs");
+  const rest = new REST({ version: "10" }).setToken(process.env.BOT_TOKEN || "");
 
   try {
     console.log("📡 Registrando comandos slash...");
